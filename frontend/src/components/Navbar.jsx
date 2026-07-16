@@ -130,9 +130,9 @@ const Navbar = () => {
               <NavLink className={linkStyles} to="/cart" onClick={() => setMenuOpen(false)}>
                 Cart
               </NavLink>
-              <NavLink className={linkStyles} to="/profile" onClick={() => setMenuOpen(false)}>
+              {/* <NavLink className={linkStyles} to="/profile" onClick={() => setMenuOpen(false)}>
                 Profile
-              </NavLink>
+              </NavLink> */}
               <button onClick={handleLogout} className={`${ctaStyles} mt-2 w-full`}>
                 Logout
               </button>
